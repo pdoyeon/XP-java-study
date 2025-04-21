@@ -14,12 +14,12 @@ public class ForEachTest {
 //        System.out.println("합 = " + sum + ", 평균 = " + avg);
 
         // 2. 배열 속에 문자열들이 있을 때 각 문자열의 길이가 긴 단어와 그 길이를 출력하는 프로그램
-//        String words[] = {"apple", "banana", "watermelon", "kiwi", "pear"};
-//        String longWord = "";
-//        for (String i : words) {
-//            if (longWord.length() < i.length()) longWord = i;
-//        }
-//        System.out.println(longWord + ", " + longWord.length());
+        String words[] = {"apple", "banana", "watermelon", "kiwi", "pear"};
+        String longWord = "";
+        for (String i : words) {
+            if (longWord.length() < i.length()) longWord = i;
+        }
+        System.out.println(longWord + ", " + longWord.length());
 
     }
 }
