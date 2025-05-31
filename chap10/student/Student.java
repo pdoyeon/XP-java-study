@@ -1,4 +1,4 @@
-package chap10.Student;
+package chap10.student;
 
 public class Student {
     public static void main(String[] args) {
@@ -19,7 +19,14 @@ public class Student {
         // 인스턴스 메서드 -> 클래스 내부에 정의되어 클래스 생성 후 사용(호출) 가능
         // 정적 메서드 -> static 키워드를 사용하며 클래스 생성 없이 사용(호출) 가능
         // 생성자 메서드 -> 객체 생성 시 호출되는 특별 메서드
-        
+
+        // 3. 객체, 클래스, 인스턴스
+        // 객체 : 객체 단위로 바꿀 대상
+        // 클래스 : 객체를 코드로 바꾼 상태 (선언된 코드)
+        // 인스턴스 변수 : 인스턴스 내부의 멤버 변수 (ex. String stuName)
+        // 참조 변수 : 인스턴스를 가리키는 변수 (ex. Student student1)
+
+        // new StudentTest() -> 생성자!
         StudentTest student = new StudentTest();
 
         student.stuId = 2025000221;
